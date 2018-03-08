@@ -5,6 +5,7 @@
 # Translators:
 # adem demir <scripard@gmail.com>, 2015
 # Ali GOREN <goren.ali@yandex.com>, 2015
+# Emre Kerim Yıldız <ekyildiz@yandex.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Corebird\n"
@@ -47,11 +48,11 @@ msgstr ""
 
 #: data/org.baedert.corebird.appdata.xml.in:25
 msgid "Typical Twitter profile"
-msgstr ""
+msgstr "Tipik Twitter profili"
 
 #: data/org.baedert.corebird.appdata.xml.in:29
 msgid "Account settings can be configured"
-msgstr ""
+msgstr "Hesap ayarlarınız değiştirildi"
 
 #: data/org.baedert.corebird.appdata.xml.in:41
 msgid "Timm Bäder"
@@ -59,13 +60,13 @@ msgstr ""
 
 #: data/org.baedert.corebird.desktop.in:5
 msgid "Use Twitter from within a normal desktop application"
-msgstr ""
+msgstr "Twitter'ı normal bir masaüstü uygulamasında kullanın"
 
 #. TRANSLATORS: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.baedert.corebird.desktop.in:7
 msgid "twitter;"
-msgstr ""
+msgstr "twitter;"
 
 #. TRANSLATORS: Do NOT translate or transliterate this text (this is an icon
 #. file name)!
@@ -76,21 +77,21 @@ msgstr "corebird"
 #. TRANSLATORS: This is the start of a "Replying to" line in a tweet
 #: src/CbUtils.c:177 src/TweetInfoPage.vala:525
 msgid "Replying to"
-msgstr ""
+msgstr "Cevapla"
 
 #. TRANSLATORS: This gets appended to the "replying to" line
 #. * in a tweet. Example: "Replying to Foo and Bar" where
 #. * "and Bar" comes from this string.
 #: src/CbUtils.c:188 src/TweetInfoPage.vala:537
 msgid "and"
-msgstr ""
+msgstr "ve"
 
 #. TRANSLATORS: This gets appended to the "replying to" line
 #. * in a tweet
 #: src/CbUtils.c:197
 #, c-format
 msgid "and %d others"
-msgstr ""
+msgstr "%d ve diğerleri"
 
 #: src/DMPage.vala:344
 msgid "Direct Conversation"
@@ -113,7 +114,7 @@ msgstr "Direkt Mesajlar"
 
 #: src/DefaultTimeline.vala:366
 msgid "Could not load tweets"
-msgstr ""
+msgstr "Tweetler yüklenemedi"
 
 #: src/FavoritesTimeline.vala:72 src/FavoritesTimeline.vala:76
 #: src/TweetInfoPage.vala:567
@@ -122,11 +123,11 @@ msgstr "Favoriler"
 
 #: src/FilterPage.vala:47
 msgid "Add new Filter"
-msgstr ""
+msgstr "Yeni filtre ekle"
 
 #: src/FilterPage.vala:317 src/FilterPage.vala:323
 msgid "Filters"
-msgstr ""
+msgstr "Filtreler"
 
 #: src/HomeTimeline.vala:143
 #, c-format
@@ -166,12 +167,12 @@ msgstr "Tweet Oluştur"
 
 #: src/MainWindow.vala:132
 msgid "Add new Account"
-msgstr ""
+msgstr "Yeni hesap ekle"
 
 #: src/MentionsTimeline.vala:93 src/UserEventReceiver.vala:115
 #, c-format
 msgid "%s mentioned %s"
-msgstr ""
+msgstr "%s, %s bahsetti"
 
 #: src/MentionsTimeline.vala:111 src/MentionsTimeline.vala:115
 msgid "Mentions"
@@ -179,7 +180,7 @@ msgstr "Bahsedilenler"
 
 #: src/ProfilePage.vala:218
 msgid "Suspended Account"
-msgstr ""
+msgstr "Hesap Askıya Alındı"
 
 #: src/ProfilePage.vala:272
 msgid "Protected profile"
@@ -192,7 +193,7 @@ msgstr "@%s Kullanıcısına Tweetle"
 
 #: src/ProfilePage.vala:507 src/ProfilePage.vala:551
 msgid "Protected Profile"
-msgstr ""
+msgstr "Korumalı Profil"
 
 #: src/SearchPage.vala:371 src/SearchPage.vala:380 ui/search-page.ui:24
 msgid "Search"
@@ -200,7 +201,7 @@ msgstr "Ara"
 
 #: src/SearchPage.vala:401
 msgid "Load More"
-msgstr ""
+msgstr "Daha fazla yükle"
 
 #: src/TweetInfoPage.vala:345
 msgid "Could not show tweet"
@@ -239,15 +240,15 @@ msgstr "Sil"
 #: src/list/TweetListEntry.vala:455
 #, c-format
 msgid "Block %s"
-msgstr ""
+msgstr "%s Engelle"
 
 #: src/list/TweetListEntry.vala:611
 msgid "This tweet contains images marked as inappropriate"
-msgstr ""
+msgstr "Bu tweet, uygunsuz olarak işaretlenmiş resimler içeriyor"
 
 #: src/list/TweetListEntry.vala:618
 msgid "Show anyway"
-msgstr ""
+msgstr "Yine de göster"
 
 #: src/util/Utils.vala:146
 msgid "Now"
@@ -265,7 +266,7 @@ msgstr "%dh"
 
 #: src/widgets/AccountCreateWidget.vala:42
 msgid "Don’t have a Twitter account yet?"
-msgstr ""
+msgstr "Hala Twitter hesabın yok mu?"
 
 #: src/widgets/AccountCreateWidget.vala:42
 msgid "Create one"
@@ -292,16 +293,16 @@ msgstr "Bu Hesap Bir Başkası Tarafından Kullanılıyor."
 
 #: src/widgets/CompletionTextView.vala:59
 msgid "No users found"
-msgstr ""
+msgstr "Kullanıcı Bulunamadı"
 
 #: src/widgets/FavImageView.vala:153 src/window/ComposeTweetWindow.vala:299
 msgid "Select Image"
-msgstr ""
+msgstr "Resim Seç"
 
 #: src/widgets/FavImageView.vala:156 src/window/AccountDialog.vala:347
 #: src/window/ComposeTweetWindow.vala:302
 msgid "Open"
-msgstr ""
+msgstr "Aç"
 
 #: src/widgets/FavImageView.vala:157 src/widgets/MediaButton.vala:276
 #: src/window/AccountDialog.vala:348 src/window/ComposeTweetWindow.vala:275
@@ -324,19 +325,19 @@ msgstr "Takibi Bırak"
 
 #: src/widgets/MediaButton.vala:48
 msgid "Copy URL"
-msgstr ""
+msgstr "URL'yi kopyala"
 
 #: src/widgets/MediaButton.vala:105
 msgid "Save as…"
-msgstr ""
+msgstr "Farklı Kaydet"
 
 #: src/widgets/MediaButton.vala:268
 msgid "Save Video"
-msgstr ""
+msgstr "Videoyu Kaydet"
 
 #: src/widgets/MediaButton.vala:270
 msgid "Save Image"
-msgstr ""
+msgstr "Resmi Kaydet"
 
 #: src/widgets/MediaButton.vala:275 src/window/AccountDialog.vala:429
 #: src/window/AccountDialog.vala:450 src/window/UserListDialog.vala:48
@@ -347,7 +348,7 @@ msgstr "Kaydet"
 
 #: src/widgets/TweetListBox.vala:123
 msgid "Loading…"
-msgstr ""
+msgstr "Yükleniyor..."
 
 #: src/widgets/TweetListBox.vala:126 src/widgets/TweetListBox.vala:177
 msgid "No entries found"
@@ -359,23 +360,23 @@ msgstr "Tekrar"
 
 #: src/window/AccountDialog.vala:344
 msgid "Select Banner Image"
-msgstr ""
+msgstr "Afiş Resmi Seç"
 
 #: src/window/AccountDialog.vala:380
 msgid "Image does not meet minimum size requirements:"
-msgstr ""
+msgstr "Resim minimum boyut gereksinimlerini karşılamıyor"
 
 #: src/window/AccountDialog.vala:381
 #, c-format
 msgid "Minimum width: %d pixel"
 msgid_plural "Minimum width: %d pixels"
-msgstr[0] ""
+msgstr[0] "Minimum genişlik: %d"
 
 #: src/window/AccountDialog.vala:383
 #, c-format
 msgid "Minimum height: %d pixel"
 msgid_plural "Minimum height: %d pixels"
-msgstr[0] ""
+msgstr[0] "Minimum yükseklik: %d"
 
 #: src/window/AccountDialog.vala:404 src/window/AccountDialog.vala:417
 msgid "Pick"
@@ -387,7 +388,7 @@ msgstr "Alıntı Tweet"
 
 #: src/window/ComposeTweetWindow.vala:331
 msgid "Selected file is not an image."
-msgstr ""
+msgstr "Seçilen dosya resim değil"
 
 #: src/window/ComposeTweetWindow.vala:332
 #: src/window/ComposeTweetWindow.vala:338
@@ -401,15 +402,15 @@ msgstr "Geri"
 #, c-format
 msgid ""
 "The selected image is too big. The maximum file size per image is %'d MB"
-msgstr ""
+msgstr "Seçilen görüntü çok büyük. Resim başına maksimum dosya boyutu% 'd MB"
 
 #: src/window/ComposeTweetWindow.vala:343
 msgid "Only one GIF file per tweet is allowed."
-msgstr ""
+msgstr "Tweet başına yalnızca bir tane GIF dosyasına izin verilir."
 
 #: src/window/ComposeTweetWindow.vala:392
 msgid "Insert Emoji"
-msgstr ""
+msgstr "Emoji ekle"
 
 #: src/window/ModifyFilterDialog.vala:45
 msgid "Modify Filter"
@@ -421,27 +422,27 @@ msgstr "Eşleşenler"
 
 #: src/window/ModifyFilterDialog.vala:78
 msgid "Doesn’t match"
-msgstr ""
+msgstr "Eşleşmiyor"
 
 #: src/window/ModifySnippetDialog.vala:44
 msgid "Modify Snippet"
-msgstr ""
+msgstr "Snippet'i Değiştir"
 
 #: src/window/ModifySnippetDialog.vala:63
 msgid "Snippet can’t be empty"
-msgstr ""
+msgstr "Snippet boş bırakılamaz"
 
 #: src/window/ModifySnippetDialog.vala:70
 msgid "Replacement can’t be empty"
-msgstr ""
+msgstr "Değiştirme boş olamaz"
 
 #: src/window/ModifySnippetDialog.vala:78
 msgid "Snippet may not contain whitespace"
-msgstr ""
+msgstr "Snippet, boşluk içeremez"
 
 #: src/window/ModifySnippetDialog.vala:86
 msgid "Snippet already exists"
-msgstr ""
+msgstr "Snippet zaten var"
 
 #: src/window/SettingsDialog.vala:85
 msgid ""
@@ -477,11 +478,11 @@ msgstr "Yeni PIN İste"
 
 #: ui/account-create-widget.ui:88
 msgid "Enter PIN from twitter.com below:"
-msgstr ""
+msgstr "Twitter.com'dan verilen PIN'i girin:"
 
 #: ui/account-create-widget.ui:106
 msgid "PIN"
-msgstr ""
+msgstr "PIN"
 
 #: ui/account-create-widget.ui:132 ui/list-statuses-page.ui:358
 msgid "Confirm"
@@ -554,11 +555,11 @@ msgstr ""
 
 #: ui/cb-emoji-chooser.ui:272
 msgid "No Results Found"
-msgstr ""
+msgstr "Sonuç Bulunamadı"
 
 #: ui/cb-emoji-chooser.ui:285
 msgid "Try a different search"
-msgstr ""
+msgstr "Farklı bir arama deneyin"
 
 #: ui/compose-window.ui:48 ui/dm-page.ui:51 ui/shortcuts-window.ui:127
 msgid "Send"
@@ -566,11 +567,11 @@ msgstr "Gönder"
 
 #: ui/compose-window.ui:177
 msgid "Add Image"
-msgstr ""
+msgstr "Resim ekle"
 
 #: ui/compose-window.ui:185
 msgid "Show favorite images"
-msgstr ""
+msgstr "Favori resimleri göster"
 
 #: ui/filter-page.ui:71 ui/search-page.ui:86
 msgid "Users"
@@ -618,7 +619,7 @@ msgstr "Genel"
 
 #: ui/list-statuses-page.ui:296
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: ui/menus.ui:6 ui/settings-dialog.ui:16 ui/settings-dialog.ui:22
 msgid "Settings"
@@ -626,7 +627,7 @@ msgstr "Ayarlar"
 
 #: ui/menus.ui:10
 msgid "Shortcuts"
-msgstr ""
+msgstr "Kısayollar"
 
 #: ui/menus.ui:15
 msgid "About"
@@ -678,7 +679,7 @@ msgstr "Engellenmiş"
 
 #: ui/profile-page.ui:24
 msgid "Muted"
-msgstr ""
+msgstr "Sessiz"
 
 #: ui/profile-page.ui:28
 msgid "Retweets disabled"
@@ -702,19 +703,19 @@ msgstr "Takiptekiler"
 
 #: ui/settings-dialog.ui:59
 msgid "Show inline media"
-msgstr ""
+msgstr "Medya içeriğini göster"
 
 #: ui/settings-dialog.ui:78
 msgid "Always show"
-msgstr ""
+msgstr "Her zaman göster"
 
 #: ui/settings-dialog.ui:79
 msgid "Always hide"
-msgstr ""
+msgstr "Her zaman gizle"
 
 #: ui/settings-dialog.ui:80
 msgid "Hide in timeline"
-msgstr ""
+msgstr "Timeline'da gizle"
 
 #: ui/settings-dialog.ui:101
 msgid "Auto scroll on new tweets"
@@ -786,7 +787,7 @@ msgstr "Medya Linklerini Kaldır"
 
 #: ui/settings-dialog.ui:394
 msgid "Hide inappropriate content"
-msgstr ""
+msgstr "Uygunsuz içeriği gizle"
 
 #: ui/settings-dialog.ui:441
 msgid "No snippets configured."
@@ -803,91 +804,91 @@ msgstr "Parçacıklar"
 #: ui/shortcuts-window.ui:12
 msgctxt "shortcuts window"
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 #: ui/shortcuts-window.ui:17
 msgctxt "shortcuts window"
 msgid "Compose Tweet"
-msgstr ""
+msgstr "Tweet oluştur"
 
 #: ui/shortcuts-window.ui:24
 msgctxt "shortcuts window"
 msgid "Show Account settings"
-msgstr ""
+msgstr "Hesap ayarlarını göster"
 
 #: ui/shortcuts-window.ui:31
 msgctxt "shortcuts window"
 msgid "Show Accounts Popover"
-msgstr ""
+msgstr "Hesapları göster"
 
 #: ui/shortcuts-window.ui:38
 msgctxt "shortcuts window"
 msgid "Show Application Settings"
-msgstr ""
+msgstr "Uygulama Ayarlarını Göster"
 
 #: ui/shortcuts-window.ui:45
 msgctxt "shortcuts window"
 msgid "Toggle Topbar"
-msgstr ""
+msgstr "Topbar'ı değiştir"
 
 #: ui/shortcuts-window.ui:52
 msgctxt "shortcuts window"
 msgid "Go Back"
-msgstr ""
+msgstr "Geri Git"
 
 #: ui/shortcuts-window.ui:59
 msgctxt "shortcuts window"
 msgid "Go Forward"
-msgstr ""
+msgstr "İleri Git"
 
 #: ui/shortcuts-window.ui:66
 msgctxt "shortcuts window"
 msgid "Go to nth page"
-msgstr ""
+msgstr "nth sayfasına git"
 
 #: ui/shortcuts-window.ui:74
 msgctxt "shortcuts window"
 msgid "Tweets"
-msgstr ""
+msgstr "Tweetler"
 
 #: ui/shortcuts-window.ui:79
 msgctxt "shortcuts window"
 msgid "Retweet"
-msgstr ""
+msgstr "Retweet"
 
 #: ui/shortcuts-window.ui:86
 msgctxt "shortcuts window"
 msgid "Favorite"
-msgstr ""
+msgstr "Favori"
 
 #: ui/shortcuts-window.ui:93
 msgctxt "shortcuts window"
 msgid "Reply"
-msgstr ""
+msgstr "Cevap"
 
 #: ui/shortcuts-window.ui:100
 msgctxt "shortcuts window"
 msgid "Quote"
-msgstr ""
+msgstr "Alıntı"
 
 #: ui/shortcuts-window.ui:107
 msgctxt "shortcuts window"
 msgid "Show Details"
-msgstr ""
+msgstr "Detayları Göster"
 
 #: ui/shortcuts-window.ui:114
 msgctxt "shortcuts window"
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 #: ui/shortcuts-window.ui:122
 msgctxt "shortcuts window"
 msgid "Compose"
-msgstr ""
+msgstr "Oluştur"
 
 #: ui/shortcuts-window.ui:141
 msgid "Show Emoji Chooser"
-msgstr ""
+msgstr "Emoji Seçiciyi Göster"
 
 #: ui/start-conversation-entry.ui:29
 msgid "Start new conversation"
@@ -943,7 +944,7 @@ msgstr "Yeni Pencerede Aç"
 
 #: ui/user-list-entry.ui:116
 msgid "Go to profile"
-msgstr ""
+msgstr "Profile Git"
 
 #: ui/user-lists-widget.ui:14
 msgid "Created"
